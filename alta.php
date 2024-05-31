@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Insertar en la base de datos
     if ($persona->insertar()) {
-        echo "La persona ha sido registrada con éxito.";
+        echo "exito.";
     } else {
         echo "Error al registrar la persona.";
     }
